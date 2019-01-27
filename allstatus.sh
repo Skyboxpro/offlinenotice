@@ -11,7 +11,7 @@ iplist="/home/pi/ips.txt"
 while IFS= read -r ip
 do
         ssh $ip bash -s <<-EOF
-        ./test.sh
+        ./status.sh
 EOF
 
 done < "$iplist"
