@@ -4,7 +4,7 @@
 
 #Download locally scripts to check status of nodes.
 curl -o status.sh https://raw.githubusercontent.com/Skyboxpro/offlinenotice/master/status.sh
-curl -o allstatus.sh https://raw.githubusercontent.com/Skyboxpro/offlinenotice/master/status.sh
+curl -o allstatus.sh https://raw.githubusercontent.com/Skyboxpro/offlinenotice/master/allstatus.sh
 
 sudo chmod 777 status.sh
 sudo chmod 777 allstatus.sh
